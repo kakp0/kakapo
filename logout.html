@@ -1,0 +1,64 @@
+<html>
+	
+	
+		<link rel="stylesheet" type="text/css" href="main.css?<?php echo date('l jS \of F Y h:i:s A'); ?>" />
+		<title>Login</title>
+	
+
+	<body>
+
+
+
+
+		<header>
+			<nav>
+				<h1>Kakapoop's Site</h1>
+
+				
+
+				<ul>
+
+					<li><a href="index.html"> Home</a></li>
+					<li><a href="page2.html"> Programs</a></li>
+					<li><a href="page3.html"> WC Lookup</a></li>
+					<li><a href="page4.html"> Discord Message</a></li>
+					<li><a id="loginButton" href="page5.html"> Login</a></li>
+
+				</ul>
+			</nav>
+		</header>
+
+
+
+		<center>
+			<p id = "loginSpacer"></p>
+			<div class = "login" id = "loginBox">
+			<h2>Are you sure you would like to Logout?</h2>
+			<input type="button" id = "logoutButton" value="Logout" />
+			
+			</div>
+			
+		</center>
+
+
+	</body>
+
+
+
+<script src="login.js"></script>
+<script src="javaScript.js"></script>
+
+
+<!-- forces an update -->
+<script src="test.js?rndstr=<%= getRandomStr() %>"></script>
+
+
+
+
+
+
+
+
+
+
+</html>

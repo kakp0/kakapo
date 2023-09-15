@@ -1,0 +1,60 @@
+<html>
+	
+	
+		<link rel="stylesheet" type="text/css" href="main.css?<?php echo date('l jS \of F Y h:i:s A'); ?>" />
+		<title>Discord Message</title>
+	
+
+	<body>
+
+
+		<header>
+			<nav>
+				<h1>Kakapoop's Site</h1>
+				<ul>
+
+					<li><a href="index.html"> Home</a></li>
+					<li><a href="page2.html"> Programs</a></li>
+					<li><a href="page3.html"> WC Lookup</a></li>
+					<li><a href="page4.html"> Discord Message</a></li>
+					<li><a id="loginButton" href="page5.html"> Login</a></li>
+
+				</ul>
+			</nav>
+		</header>
+
+
+
+		<center>
+			<p id = "loginSpacer"></p>
+
+			<div class = "login" id = "loginBox">
+
+			<h2>Send an anonymous message to Kakapo Sanctuary</h2>
+			<br><input type="text" id="msg" placeholder="Enter Message">
+
+			</div>
+            
+		</center>
+
+
+	</body>
+
+<script src="javaScript.js"></script>
+<script src="login.js"></script>
+
+
+<!-- forces an update <script src="javaScript.js?t=<?= time(); ?>"></script> < how to make js not be cached   -->
+<script src="test.js?rndstr=<%= getRandomStr() %>"></script>
+
+
+
+
+
+
+
+
+
+
+
+</html>

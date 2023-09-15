@@ -1,0 +1,305 @@
+html {
+  height: 100%;
+}
+
+
+
+
+
+:root {
+  
+  --green: #22f565;
+}
+
+body{
+	background: #171717;
+	color: white;
+	margin: 0;
+	font-family: "Tahoma";
+	overflow: auto;
+
+	 
+
+  	background-size: 100% 100%;
+  	
+	background-image: linear-gradient(306deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 33.333%,rgba(85, 85, 85, 0.05) 33.333%, rgba(85, 85, 85, 0.05) 66.666%,rgba(255, 255, 255, 0.05) 66.666%, rgba(255, 255, 255, 0.05) 99.999%),linear-gradient(353deg, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 33.333%,rgba(238, 238, 238, 0.05) 33.333%, rgba(238, 238, 238, 0.05) 66.666%,rgba(32, 32, 32, 0.05) 66.666%, rgba(32, 32, 32, 0.05) 99.999%),linear-gradient(140deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(30, 30, 30, 0.05) 66.666%, rgba(30, 30, 30, 0.05) 99.999%),linear-gradient(189deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 33.333%,rgba(55, 55, 55, 0.05) 33.333%, rgba(55, 55, 55, 0.05) 66.666%,rgba(145, 145, 145, 0.05) 66.666%, rgba(145, 145, 145, 0.05) 99.999%),linear-gradient(90deg, rgb(29,213,78),rgb(0,0,0));  	
+
+  	animation: animate 30s linear infinite;
+}
+
+@keyframes animate{
+	from{
+		background-position: 0 0 ;
+	}
+	to{
+		background-position: 0 930 ;
+	}
+}
+
+
+::-webkit-scrollbar {
+
+    width: 0px;
+    background: transparent;
+}
+
+
+button{
+	color: white;
+	margin: 0;
+	background:#121212;
+	font-family: "Tahoma";
+}
+
+
+header{
+	float: left;
+	width: 100%;
+	background: #171717;
+	margin: 0;
+}
+
+
+header nav{
+	padding: 10px 0px 5px 15px;
+}
+
+
+
+header h1{
+	color: var(--green);
+	display: inline;
+	margin: 0;
+}
+
+
+nav ul{
+	float: right;
+	display: inline;
+	margin: 0px 25px 0px 0px;
+
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+
+}
+
+
+
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	
+  
+	
+
+}
+
+nav ul li a:hover{
+
+color: var(--green); 
+
+transition: .4s ease;
+}
+
+
+
+#loginSpacer{
+
+	padding-top: 300px;
+
+}
+
+.login{
+	width: 380px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background: #1c1c1c;
+	
+
+}
+
+
+
+.login{
+	color: var(--green);
+	font-size: 20px;
+	border-radius: 10px;
+}
+.login input{
+
+	width: 80% ;
+	padding-top: 19px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: large;
+	border-radius: 10px;
+}
+
+#Username{
+	font-family:Verdana ;
+	padding-left: 5px;
+}
+
+#Password{
+	font-family:Verdana ;
+	padding-left: 5px;
+}
+
+#msg{
+	margin-top: -10px;
+	font-family:Verdana ;
+	padding-left: 5px;
+}
+
+#loginSpacer{
+
+	font-weight: 900;
+
+}
+
+.pensiveCowboy{
+
+	padding-top:300px ;
+	color: white;
+
+}
+
+.pensiveCowboy a{
+	font-weight: bold;
+	color: var(--green);
+	text-decoration: none;
+}
+
+.content{
+	
+	padding-top: 70px;
+}
+
+
+
+#lookupSpacer{
+	padding-top: 10%;
+	color: white;
+	font-size: 40;
+
+}
+
+#lookupSpacerBottom{
+	padding-bottom: 5%;
+	color: white;
+	font-size: 40;
+
+}
+
+#lookupTable{
+	list-style: None;
+	
+
+
+}
+
+table{
+	margin-left: 19px;
+	margin-right: 19px;
+}
+table, th, td {
+    border: 1px solid var(--green);
+}
+th, td {
+    padding: 10px;
+}
+
+.lookup{
+
+	border-radius: 10px;
+	width: 500px;
+	padding-top:20px;
+	padding-bottom:20px;
+	background: #1c1c1c;
+	
+
+}
+
+#inputBar{
+	border-radius: 10px;
+	font-family:Verdana ;
+	padding-left: 5px;
+}
+
+.lookup{
+	color: white;
+	font-size: 20px;
+
+}
+
+.lookup h2{
+	color: var(--green);
+}
+
+
+.lookup input{
+
+	width: 80% ;
+	padding-top: 19px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: large;
+
+}
+
+
+#logoutButton{
+	background-color: var(--green);
+	border-color: var(--green);
+	font-family:Verdana ;
+	color: white;
+	font-size: 40;
+	font-weight: bold;
+	line-height: 10px;
+	padding-bottom: 25px;
+	text-shadow:-1px 1px 0 #000;
+
+}
+
+#showPassword {
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+footer{
+	clear: both;
+}
+
+
+.ProgramDiv{
+	border-radius: 10px;
+	margin: 10%;
+	background:#1c1c1c ;
+	width: 576px;
+	height: 400px;
+}
+
+.ProgramDiv a{
+
+	font-weight: bold;
+	float: center;
+	color: var(--green);
+}
+
+.ProgramDivTitle{
+	margin-top: 20px;
+	float: center;
+	color: var(--green);
+}
+
+#ProgramTable, #ProgramTable td{
+	border-style: none;
+}

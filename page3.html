@@ -1,0 +1,72 @@
+<html>
+	
+	
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<title>WC Lookup</title>
+	
+
+	<body>
+
+
+		<header>
+			<nav>
+				<h1>Kakapoop's Site</h1>
+				<ul>
+
+					<li><a href="index.html"> Home</a></li>
+					<li><a href="page2.html"> Programs</a></li>
+					<li><a href="page3.html"> WC Lookup</a></li>
+					<li><a href="page4.html"> Discord Message</a></li>
+					<li><a id="loginButton" href="page5.html"> Login</a></li>
+
+				</ul>
+			</nav>
+		</header>
+
+
+
+		<center>
+			<p id = "lookupSpacer"></p>
+			<div class="lookup">
+				<h2>Wellington College 2022  Database</h2>
+				<p>List of all Staff and Faculty: "Staff"</p>
+				<p>List of all Students: "Students"</p>
+				<p>Search via email: "@{email}" </p>
+				<p>Entire Wellington College Record: Leave Blank</p>
+				<input type="text" id="inputBar" placeholder="Enter Name or Email">
+				<p id="searchResults"></p>
+				<table id="lookupTable">
+					<tr>
+						<td class="name">Name</td>
+						<td class= "email">Email</td>
+					</tr>
+					
+
+				</table>
+
+			</div>
+			<p id = "lookupSpacerBottom"></p>
+		</center>
+
+
+	</body>
+
+
+<script src="login.js"></script>
+
+<!-- forces an update -->
+<script src="test.js?rndstr=<%= getRandomStr() %>"></script>
+
+
+<script src="lookup.js"></script>
+<script src="javaScript.js"></script>
+
+
+
+
+
+
+
+
+
+</html>

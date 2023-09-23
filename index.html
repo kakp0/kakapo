@@ -20,7 +20,25 @@
 
 
 	
+	<script>
 
+
+	const express = require('express');
+const app = express();
+
+// Access a GitHub secret stored as an environment variable
+const mySecret = process.env.MY_GITHUB_SECRET;
+
+app.get('/', (req, res) => {
+  res.send(`My GitHub secret is: ${mySecret}`);
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+
+
+	</script>
 
 
 
